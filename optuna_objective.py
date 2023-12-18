@@ -4,6 +4,8 @@ import csv
 import optuna
 import pickle
 import pandas
+import cProfile
+import pstats
 import matplotlib.pyplot as plt
 from qibo import set_backend, gates, Circuit
 from optuna.visualization import (
@@ -15,7 +17,7 @@ from optuna.visualization import (
     plot_param_importances,
     plot_rank,
     plot_slice,
-    plot_timeline
+    plot_timeline,
 )
 
 from help_functions import (
@@ -30,7 +32,6 @@ from help_functions import (
     calculate_batches,
     batch_data,
 )
-
 
 
 class Objective:
@@ -76,6 +77,9 @@ class Objective:
         self.vparams = tf.Variable(tf.random.normal(shape=(23,)), trainable=True)
 
     def __call__(self, trial):
+        # Profiler
+        profiler = cProfile.Profile()
+        profiler.enable()
         # ==========================
         # OPTUNA
         # ==========================
@@ -142,14 +146,18 @@ class Objective:
             val_loss.append(val_l_epoch)
             val_acc.append(val_a_epoch)
 
-            # PRUNING OPTUNA: I use as pruning metric the validation accuracy epoch value 
+            # PRUNING OPTUNA: I use as pruning metric the validation accuracy epoch value
             trial.report(val_a_epoch, i)
 
             if trial.should_prune():
                 raise optuna.TrialPruned()
 
+        profiler.disable()
+        with open("profile_results_objective.txt", "w") as profile_file:
+            stats = pstats.Stats(profiler, stream=profile_file)
+            stats.sort_stats("cumulative")
+            stats.print_stats()
         return tf.reduce_sum(val_acc)
-
 
 
 class DetailedObjective:
@@ -197,6 +205,9 @@ class DetailedObjective:
         self.vparams = tf.Variable(tf.random.normal(shape=(23,)), trainable=True)
 
     def __call__(self, trial):
+        # Profiler
+        profiler = cProfile.Profile()
+        profiler.enable()
         # ==========================
         # OPTUNA
         # ==========================
@@ -275,7 +286,6 @@ class DetailedObjective:
             val_loss.append(val_l_epoch)
             val_acc.append(val_a_epoch)
 
-
             # ==========================
             # Salvo:
             # 1. Pesi della CNN
@@ -315,5 +325,10 @@ class DetailedObjective:
             print("/" * 60, file=file)
             print("/" * 60, file=file)
 
+        profiler.disable()
+        with open("profile_results_detailed_objective.txt", "w") as profile_file:
+            stats = pstats.Stats(profiler, stream=profile_file)
+            stats.sort_stats("cumulative")
+            stats.print_stats()
 
         return tf.reduce_sum(val_acc)

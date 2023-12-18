@@ -38,18 +38,19 @@ def main():
     # ==================================
     # Inizializzazione comune
     # ==================================
-    batch_size = 32
+    batch_size = 10
     filterdim = 2
     resize = 10
     nclasses = 2
+    number_of_trials = 2
     filt = "yes"
 
     # ==================================
     # Parametri specifici per la ottimizzazione di Optuna.
     # Uso train_size e epochs ridotte per favorire il Pruning.
     # ==================================
-    train_size = 1000
-    epochs = 10
+    train_size = 30
+    epochs = 2
     name_barplot = "hyperparam_barplot.png"
     log_file = "hyperparam_logfile.txt"
 
@@ -94,7 +95,7 @@ def main():
             number_of_batches,
             sizes_batches,
         ),
-        n_trials=5,
+        n_trials=number_of_trials,
     )
 
     best_params = study.best_params
@@ -140,8 +141,9 @@ def main():
     # =================================
     log_file = "best_trial.txt"
     name_barplot = "best_trial_barplot.png"
-    train_size = 1000
-    epochs = 15
+    train_size = 30
+    batch_size = 10
+    epochs = 2
     x_train, y_train, x_test, y_test = initialize_data(train_size, resize, filt)
     barplot(name_barplot, x_train, y_train)
     number_of_batches, sizes_batches = calculate_batches(x_train, batch_size)

@@ -1,0 +1,11 @@
+============================================================
+============================================================
+best_params {'lr': 1, 'n_kernels_1': 93, 'n_kernels_2': 100, 'n_nodes': 92}
+============================================================
+============================================================
+best_trial FrozenTrial(number=1, state=1, values=[1.419354796409607], datetime_start=datetime.datetime(2023, 12, 18, 15, 34, 4, 453664), datetime_complete=datetime.datetime(2023, 12, 18, 16, 28, 13, 583028), params={'lr': 1, 'n_kernels_1': 93, 'n_kernels_2': 100, 'n_nodes': 92}, user_attrs={}, system_attrs={}, intermediate_values={0: 0.7096773982048035, 1: 0.7096773982048035}, distributions={'lr': IntDistribution(high=5, log=False, low=1, step=1), 'n_kernels_1': IntDistribution(high=128, log=False, low=4, step=1), 'n_kernels_2': IntDistribution(high=128, log=False, low=4, step=1), 'n_nodes': IntDistribution(high=100, log=False, low=10, step=1)}, trial_id=1, value=None)
+============================================================
+============================================================
+best_trials [FrozenTrial(number=1, state=1, values=[1.419354796409607], datetime_start=datetime.datetime(2023, 12, 18, 15, 34, 4, 453664), datetime_complete=datetime.datetime(2023, 12, 18, 16, 28, 13, 583028), params={'lr': 1, 'n_kernels_1': 93, 'n_kernels_2': 100, 'n_nodes': 92}, user_attrs={}, system_attrs={}, intermediate_values={0: 0.7096773982048035, 1: 0.7096773982048035}, distributions={'lr': IntDistribution(high=5, log=False, low=1, step=1), 'n_kernels_1': IntDistribution(high=128, log=False, low=4, step=1), 'n_kernels_2': IntDistribution(high=128, log=False, low=4, step=1), 'n_nodes': IntDistribution(high=100, log=False, low=10, step=1)}, trial_id=1, value=None)]
+============================================================
+============================================================

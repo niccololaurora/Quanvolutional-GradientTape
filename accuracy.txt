@@ -1,0 +1,204 @@
+////////////////////////////////////////////////////////////
+Predictions: [<tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.83333135]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.81860703]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.82589215]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.8180563]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.81290895]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.83370847]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.81764793]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.82414395]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.83943856]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.83949524]], dtype=float32)>]
+Labels: [0 1 1 1 1 0 1 1 0 0]
+Accuracy 0.6000000238418579
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+Predictions: [<tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.65264803]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.6375562]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.6504627]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.6356676]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.6550106]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.66334784]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.63734037]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.6448478]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.63985324]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.6481924]], dtype=float32)>]
+Labels: [1 0 0 1 0 1 0 0 1 1]
+Accuracy 0.5
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+Predictions: [<tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.52216274]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5354499]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.534403]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5238812]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5171398]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5253084]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5265107]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5256018]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.54711175]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5420439]], dtype=float32)>]
+Labels: [0 1 1 0 0 0 1 1 1 1]
+Accuracy 0.4000000059604645
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+Predictions: [[0.52930534]
+ [0.53677464]
+ [0.528736  ]
+ [0.53050065]
+ [0.52930534]
+ [0.52505225]
+ [0.530455  ]
+ [0.54061276]
+ [0.52707684]
+ [0.53360176]
+ [0.5420481 ]
+ [0.5246856 ]
+ [0.5121867 ]
+ [0.53604686]
+ [0.5457987 ]
+ [0.5229549 ]
+ [0.5421332 ]
+ [0.52627194]
+ [0.5447735 ]
+ [0.5414804 ]
+ [0.52505225]
+ [0.51990753]
+ [0.53967786]
+ [0.53009236]
+ [0.52930534]
+ [0.5110093 ]
+ [0.5048149 ]
+ [0.52505225]
+ [0.53361505]
+ [0.52930534]
+ [0.5397524 ]]
+Labels: [1. 0. 1. 1. 1. 1. 0. 0. 1. 1. 1. 0. 0. 1. 1. 1. 1. 0. 1. 1. 1. 0. 1. 1.
+ 1. 0. 0. 1. 1. 1. 1.]
+Accuracy 0.29032257199287415
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+Predictions: [<tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.500653]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.53047544]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.521883]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5205604]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5176925]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.49956393]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5290686]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5248494]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5244135]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5223501]], dtype=float32)>]
+Labels: [0 1 1 1 1 0 1 1 0 0]
+Accuracy 0.4000000059604645
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+Predictions: [<tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.51756]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.4929952]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.49788627]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5196252]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5062903]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5280866]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.4959451]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.4918914]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5004855]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5251614]], dtype=float32)>]
+Labels: [1 0 0 1 0 1 0 0 1 1]
+Accuracy 0.5
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+Predictions: [<tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5196233]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.53675234]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5326776]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5250453]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5162199]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5183042]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5317002]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.53004885]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.5325938]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[0.533465]], dtype=float32)>]
+Labels: [0 1 1 0 0 0 1 1 1 1]
+Accuracy 0.4000000059604645
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+Predictions: [[0.52878577]
+ [0.52811885]
+ [0.5294911 ]
+ [0.5285379 ]
+ [0.52878577]
+ [0.5278322 ]
+ [0.5171629 ]
+ [0.5270972 ]
+ [0.5268603 ]
+ [0.5329326 ]
+ [0.52994335]
+ [0.5272968 ]
+ [0.5153565 ]
+ [0.53074956]
+ [0.5416103 ]
+ [0.5297768 ]
+ [0.53764397]
+ [0.52510923]
+ [0.5340367 ]
+ [0.53903604]
+ [0.5278322 ]
+ [0.52063715]
+ [0.53273225]
+ [0.5317464 ]
+ [0.52878577]
+ [0.5167696 ]
+ [0.5146091 ]
+ [0.5278322 ]
+ [0.53472537]
+ [0.52878577]
+ [0.53767323]]
+Labels: [1. 0. 1. 1. 1. 1. 0. 0. 1. 1. 1. 0. 0. 1. 1. 1. 1. 0. 1. 1. 1. 0. 1. 1.
+ 1. 0. 0. 1. 1. 1. 1.]
+Accuracy 0.29032257199287415
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+Predictions: [<tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>]
+Labels: [0 1 1 1 1 0 1 1 0 0]
+Accuracy 0.6000000238418579
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+Predictions: [<tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>]
+Labels: [1 0 0 1 0 1 0 0 1 1]
+Accuracy 0.5
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+Predictions: [<tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>]
+Labels: [0 1 1 0 0 0 1 1 1 1]
+Accuracy 0.6000000238418579
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+Predictions: [[1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]]
+Labels: [1. 0. 1. 1. 1. 1. 0. 0. 1. 1. 1. 0. 0. 1. 1. 1. 1. 0. 1. 1. 1. 0. 1. 1.
+ 1. 0. 0. 1. 1. 1. 1.]
+Accuracy 0.7096773982048035
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+Predictions: [<tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>]
+Labels: [0 1 1 1 1 0 1 1 0 0]
+Accuracy 0.6000000238418579
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+Predictions: [<tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>]
+Labels: [1 0 0 1 0 1 0 0 1 1]
+Accuracy 0.5
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+Predictions: [<tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>, <tf.Tensor: shape=(1, 1), dtype=float32, numpy=array([[1.]], dtype=float32)>]
+Labels: [0 1 1 0 0 0 1 1 1 1]
+Accuracy 0.6000000238418579
+////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////
+Predictions: [[1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]
+ [1.]]
+Labels: [1. 0. 1. 1. 1. 1. 0. 0. 1. 1. 1. 0. 0. 1. 1. 1. 1. 0. 1. 1. 1. 0. 1. 1.
+ 1. 0. 0. 1. 1. 1. 1.]
+Accuracy 0.7096773982048035
+////////////////////////////////////////////////////////////
