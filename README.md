@@ -13,7 +13,7 @@ Files:
 1. `cluster.py` is the main file necessary to run the training of the Quanvolutional Neural Network.
 2. `ansatz.py` contains Qibo's circuits used as ansatze for the Quanvolutional filters of the Quanvolutional Neural Network.
 3. `help_functions.py` contains helpful functions.
-4. `optuna_objective.py` contains two classed: Objective and DetailedObjective. The first class is used to run the various trials of Optuna and identify the best set of hyperparameters 
+4. `optuna_objective.py` contains two classes: Objective and DetailedObjective. The first class is used to run the various trials of Optuna and identify the best set of hyperparameters 
     (average pruning is adopted to prune unpromising trials). The second class is used to run the complete training of the best trial (best set of hyperparameters) found by Optuna.
 5. `random_circuit_generator.py` contains some functions to build a pseudo-random Qibo's circuit, which could be used as Quanvolutional filters. The recipe to build the pseudo-random 
     Qibo's circuit is the one suggested in the paper.
