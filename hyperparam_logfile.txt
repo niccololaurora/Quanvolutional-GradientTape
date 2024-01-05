@@ -1,6 +1,0 @@
-Labels target [0 1 1 1 1 0 1 1 0 0 1 0 0 1 0 1 0 0 1 1 0 1 1 0 0 0 1 1 1 1]
-Immagini di training per Hyperparameter Optimization 30
-Immagini di test per Hyperparameter Optimization 31
-Number of batches 3
-Size of batch [10, 10, 10]
-============================================================
